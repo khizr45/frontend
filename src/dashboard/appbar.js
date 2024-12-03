@@ -201,12 +201,12 @@ export default function Dashboard() {
           >
             <img src={`/vortexLogo.jpg`} style={{height: "47%", width: "59%"}} alt="My Logo" />
           </Toolbar>
-          <Divider />
+          {/* <Divider />
           <List component="nav">
             {mainListItems}
             <Divider sx={{ my: 1, borderColor: "#484343" }} />
             {secondaryListItems}
-          </List>
+          </List> */}
         </Drawer>
         <Box
           component="main"
